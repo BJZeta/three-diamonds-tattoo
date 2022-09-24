@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&family=Roboto+Slab&family=UnifrakturMaguntia&display=swap');
 
 * {
-    margin: 0 auto;
+    margin: 0 auto;    
 }
+
+h2 {
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+p {
+    font-family: 'Roboto Slab', serif;
+}
+
+/****************************** HEADER STYLES */
 
 .navigation-container {
     width: 100vw;
@@ -10,7 +21,7 @@
 }
 
 .navigation-bar {
-    background-color: #000438;
+    background-color: #181520;
     width: 100%;
     height: 80px;
     text-align: center;
@@ -23,6 +34,7 @@
     float: left;
     background-color: #0412BF;
     border-radius: 5px;
+    font-family: 'UnifrakturMaguntia', cursive
 }
 
 .navigation-bar ul {
@@ -34,6 +46,7 @@
 
 .navigation-bar li {
     display: inline;
+    font-family: 'Aref Ruqaa Ink', serif;
     font-size: larger;
     width: 8rem;
     padding: 5px;
@@ -44,4 +57,50 @@
 .navigation-bar a {
     text-decoration: none;
     color: #DD0000;
+}
+
+/****************************** BANNER */
+
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: #000;
+}
+
+/****************************** ABOUT SECTION */
+
+.about-section {
+    /* display: flex; */
+    background-color: #3A3741;
+    padding: 5em 10em;
+}
+
+.about-section h2, .about-section p {
+    color: white;
+}
+
+/****************************** CONTACT SECTION */
+
+.contact-section {
+    background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3em 0 10em 0;
+}
+
+.contact-section h2, .contact-section p {
+    color: white;
+}
+
+/****************************** FOOTER */
+
+footer {
+    background-color: #181520;
+    width: 100%;
+    padding: 25px 0;
+}
+
+footer p {
+    color: white;
+    text-align: center;
 }
